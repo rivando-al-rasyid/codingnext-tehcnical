@@ -7,10 +7,6 @@ This repository contains two projects developed to demonstrate practical skills 
 1. 🐍 Python Discount Calculator (Tkinter GUI)
 2. 🌐 Portfolio Website (HTML + Bootstrap)
 
-The goal of this project is to recreate and improve example projects provided through Google Classroom while developing independent programming and design skills.
-
----
-
 # 📌 Project 1 — Python Discount Calculator (Tkinter GUI)
 
 ## Description
@@ -43,7 +39,9 @@ The application provides a simple graphical user interface (GUI) where users can
 
 The application uses this formula:
 
-$$Final Price = Original Price \times (1 - \frac{Discount}{100})$$
+$$
+Final Price = Original Price \times (1 - \frac{Discount}{100})
+$$
 
 ### Example:
 
@@ -52,7 +50,9 @@ $$Final Price = Original Price \times (1 - \frac{Discount}{100})$$
 
 **Calculation:**
 
-$$100000 \times (1 - \frac{20}{100})$$
+$$
+100000 \times (1 - \frac{20}{100})
+$$
 
 * **Final Price:** Rp. 80000
 
@@ -69,22 +69,19 @@ $$100000 \times (1 - \frac{20}{100})$$
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/rivando-al-rasyid/codingnext-tehcnical.git](https://github.com/rivando-al-rasyid/codingnext-tehcnical.git)
-
+git clone https://github.com/rivando-al-rasyid/codingnext-tehcnical.git
 ```
 
 2. Navigate to the calculator folder:
 
 ```bash
 cd python-calculator
-
 ```
 
 3. Run the program:
 
 ```bash
 python calculator.py
-
 ```
 
 The Discount Calculator application will open.
@@ -97,7 +94,6 @@ The Discount Calculator application will open.
 python-calculator/
 │
 └── calculator.py
-
 ```
 
 ---
@@ -164,12 +160,6 @@ Displays completed projects with descriptions and links:
 
 ---
 
-### 📞 Contact Section
-
-Provides information for visitors to connect.
-
----
-
 # 📂 Repository Structure
 
 ```
@@ -183,14 +173,10 @@ ADVANCED-TEACHER-PROJECT/
 │   │
 │   ├── index.html
 │   │
-│   ├── css/
-│   │   └── style.css
-│   │
 │   └── assets/
 │       └── images/
 │
 └── README.md
-
 ```
 
 ---
@@ -208,40 +194,10 @@ This project demonstrates:
 
 ---
 
-# 🔮 Future Improvements
-
-## Python Calculator
-
-Possible improvements:
-
-* Add quantity calculation
-* Add multiple product support
-* Save calculation history
-* Improve GUI design
-* Add more calculator functions
-
-## Portfolio Website
-
-Possible improvements:
-
-* Add animations
-* Add dark mode
-* Add more interactive JavaScript features
-* Connect with backend services
-* Add online contact form
-
----
-
 # 👨‍💻 Author
 
 **Rivando Al Rasyid**
 
-Student Developer
-
-Python & Web Development Enthusiast
-
----
-
-# 📜 License
+📜 License
 
 This project was created for educational purposes as part of the **Advanced Teacher Project Preliminary Stage**.
