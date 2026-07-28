@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Favorite Marvel Superheroes</title>
+    <title>My Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,9 +12,9 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Marvel Heroes</a>
+        <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,84 +32,106 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Heroes</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- Restored bg-danger from the original Marvel theme -->
     <header class="bg-danger text-white text-center py-5">
       <div class="container">
-        <h1 class="display-4 fw-bold">My Favorite Marvel Superheroes</h1>
+        <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
         <p class="lead">
-          A tribute to the most iconic heroes of the Marvel Universe
+          Showcasing my latest web development projects and works
         </p>
       </div>
     </header>
 
-    <main class="container my-5">
+    <main class="container my-5" id="projects">
       <div class="text-center mb-5">
-        <h2 class="fw-bold">Top Marvel Heroes</h2>
-        <p class="text-muted">Here are some of my all-time favorites.</p>
+        <h2 class="fw-bold">Featured Projects</h2>
+        <p class="text-muted">Explore some of my recent applications below.</p>
       </div>
 
       <div class="container-fluid px-2">
-        <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Project 1: Cliq -->
           <div class="col">
             <div class="card h-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1635863138275-d9b33299680b?auto=format&fit=crop&w=600&q=80"
+                src="assets/images/cliq.png"
                 class="card-img-top"
-                alt="Iron Man"
+                alt="Cliq Project"
                 style="height: 200px; object-fit: cover"
               />
-              <div class="card-body">
-                <h3 class="card-title h5 fw-bold">Iron Man</h3>
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5 fw-bold">Cliq</h3>
                 <p class="card-text text-muted">
-                  Genius billionaire Tony Stark, who built a high-tech suit of
-                  armor and became Iron Man to protect the world.
+                  A modern web platform designed for seamless user interaction
+                  and connectivity.
                 </p>
+                <!-- Restored text-danger / outline-danger button styling to match old color vibe -->
+                <a
+                  href="https://cliq.rivandoalrasyid.it.com/"
+                  target="_blank"
+                  class="btn btn-outline-danger mt-auto"
+                  >Visit Project</a
+                >
               </div>
             </div>
           </div>
 
+          <!-- Project 2: VanWallet -->
           <div class="col">
             <div class="card h-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1604200213928-ba3cf4fc8436?auto=format&fit=crop&w=600&q=80"
+                src="assets/images/ewallet.png"
                 class="card-img-top"
-                alt="Spider-Man"
+                alt="VanWallet Project"
                 style="height: 200px; object-fit: cover"
               />
-              <div class="card-body">
-                <h3 class="card-title h5 fw-bold">Spider-Man</h3>
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5 fw-bold">VanWallet</h3>
                 <p class="card-text text-muted">
-                  Peter Parker, bitten by a radioactive spider, uses his powers
-                  to fight crime while juggling life as a student.
+                  A digital e-wallet solution built to manage transactions
+                  securely and efficiently.
                 </p>
+                <a
+                  href="https://vanwallet.rivandoalrasyid.it.com/"
+                  target="_blank"
+                  class="btn btn-outline-danger mt-auto"
+                  >Visit Project</a
+                >
               </div>
             </div>
           </div>
 
-          <!-- Captain America Card -->
+          <!-- Project 3: Main Portfolio -->
           <div class="col">
             <div class="card h-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1632455853191-f17642847e2b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="assets/images/portofolio.png"
                 class="card-img-top"
-                alt="Captain America"
+                alt="Portfolio Project"
                 style="height: 200px; object-fit: cover"
               />
-              <div class="card-body">
-                <h3 class="card-title h5 fw-bold">Captain America</h3>
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5 fw-bold">Personal Portfolio</h3>
                 <p class="card-text text-muted">
-                  Steve Rogers, enhanced to the peak of human perfection, fights
-                  for freedom as Captain America.
+                  My comprehensive professional profile website highlighting my
+                  skills and works.
                 </p>
+                <a
+                  href="https://www.rivandoalrasyid.it.com/"
+                  target="_blank"
+                  class="btn btn-outline-danger mt-auto"
+                  >Visit Project</a
+                >
               </div>
             </div>
           </div>
@@ -117,13 +139,12 @@
       </div>
     </main>
 
-    <section class="bg-light text-center py-5 mt-5 w-100">
+    <section class="bg-light text-center py-5 mt-5 w-100" id="about">
       <div class="container-fluid px-4">
         <h2 class="fw-bold mb-3">About This Page</h2>
         <p class="text-muted mb-0">
-          This website is a fan-made tribute to the Marvel superheroes who have
-          inspired millions. No JavaScript, just pure HTML and Bootstrap
-          styling!
+          This portfolio is built with clean HTML and responsive Bootstrap
+          styling to showcase my development journey.
         </p>
       </div>
     </section>
@@ -131,7 +152,7 @@
     <footer class="bg-dark text-white text-center py-4">
       <div class="container">
         <p class="mb-0">
-          &copy; 2025 My Marvel Favorites | Designed with
+          &copy; 2026 Rivando Alrasyid | Designed with
           <span class="text-danger">&hearts;</span> using Bootstrap
         </p>
       </div>

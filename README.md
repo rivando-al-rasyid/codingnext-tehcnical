@@ -69,7 +69,8 @@ $$
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rivando-al-rasyid/codingnext-tehcnical.git
+git clone https://github.com/rivando-al-rasyid/codingnext-tehcnical.git ADVANCED-TEACHER-PROJECT
+cd ADVANCED-TEACHER-PROJECT
 ```
 
 2. Navigate to the calculator folder:
